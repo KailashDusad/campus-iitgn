@@ -1,0 +1,127 @@
+/* Jai Shree Ram */
+/* Jai Shree Ram */
+h2 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #d9d9d9;
+    
+}
+
+.container1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 98.8vw;
+    height: 100vh;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.container1 {
+    width: 98.8vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    color: black;
+    margin: auto;
+    padding-top: 10px;
+    background-color: #d9d9d9;
+    background-color: white;
+
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgb(65, 65, 65), 0 0 10px 0 rgb(57, 57, 57), 0 0 10px 0 rgb(70, 70, 70), 0 0 10px 0 rgb(61, 61, 61);
+    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+    grid-row-gap: 10px;
+}
+
+form input {
+    background: transparent;
+    width: 89%;
+
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    display: flex;
+    align-items: center;
+    background-color: #eff4f4;
+}
+form textarea{
+    padding-top: 10px;
+    padding-left: 5px;
+    background-color: #eff4f4;
+    border-radius: 5px;
+    width: 89%;
+}
+form label {
+    font-weight: bold;
+}
+.image img{
+    height: 100px;
+    width: 100px;
+}
+
+#signup {
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+
+    background: transparent;
+    color: black;
+    font-weight: bold;
+    background-color: #008ffd;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    form {
+        width: 85vw;
+    }
+    .image img{
+        height: 70px;
+        width: 70px;
+    }
+    .container1::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 98.8vw;
+        height: 100vh;
+        z-index: -1;
+        opacity: 0.8;
+    }
+    .container1{
+        display: block;
+        height: 80vh;
+        margin: auto;
+        margin-top: 20%;
+    }
+    
+    form textarea{
+        border-radius: 5px;
+    } 
+}

@@ -1,0 +1,11 @@
+.table-content{
+    width: 155pt;
+    border-right: 1pt solid black;
+    border-bottom: 1pt solid black;
+    border-left: 1pt solid black;
+    border-image: initial;
+    border-top: none;
+    padding: 0cm 5.4pt;
+    height: 14.25pt;
+    vertical-align: top;
+}
