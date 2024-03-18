@@ -1,4 +1,4 @@
-.box{
+.box {
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -6,12 +6,14 @@
     align-items: center;
     padding: 50px 8%;
 }
-.gallery{
+
+.gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 10px;
 }
-.gallery img{
+
+.gallery img {
     width: 100%;
     aspect-ratio: 2/2;
     object-fit: cover;

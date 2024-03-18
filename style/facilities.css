@@ -1,17 +1,18 @@
 /* Jai Shree Ram */
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-#campus-facilities h1{
+#campus-facilities h1 {
     font-size: 32px;
     font-style: semi-bold-italic;
     margin-left: 310px;
     padding-top: 20px;
 
 }
-#campus-facilities{
+
+#campus-facilities {
     height: 86px;
     width: 833px;
     background: linear-gradient(to left, rgba(19, 64, 67, 0.84), rgba(23, 93, 98, 0.34));
@@ -19,14 +20,14 @@
     border-bottom-right-radius: 34px;
 }
 
-#facilities{
+#facilities {
     background-color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.wm{
+.wm {
     height: 282px;
     width: 239px;
     display: flex;
@@ -39,30 +40,50 @@
     margin-top: 25px;
     margin-right: 20px;
     margin-bottom: 70px;
+    border: 2px solid black;
+    justify-content: center;
 
 }
-.wm h3{
+
+.hvr-grow {
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.05);
+}
+
+
+.wm h3 {
     font-size: 24px;
     font-style: semi-bold;
     padding-top: 5px;
-    
+
 }
-.wm img{
+
+.wm img {
     height: 150px;
     width: 150;
     border-radius: 23px 23px 0 0;
     aspect-ratio: 3/2;
     object-fit: contain;
 }
-.CS h3{
+
+.CS h3 {
     font-size: 20px;
 }
-.wm a{
+
+.wm a {
     text-decoration: none;
     color: black;
     font-size: 20px;
     font-style: semi-bold;
 }
-
-
-
