@@ -31,9 +31,6 @@ body {
     color: white;
 }
 
-#custom-img {
-    margin-right: 10px;
-}
 
 .hvr-underline-from-center {
     display: inline-block;
@@ -185,8 +182,8 @@ body {
 .text-on-slides {
     position: absolute;
     /* top: 12%; */
-    top: 59.5%;
-    right: 3%;
+    top: 20%;
+    right: 15%;
     z-index: 100;
     width: 500px;
     max-width: 55%;
@@ -200,7 +197,7 @@ body {
     background-color: green;
     /* height: 400px;
    width: 200px; */
-    height: 30vh;
+    height: 40vh;
     /* background: rgba(252, 252, 252, 0.88); */
     background: rgba(91, 74, 74, 0.9);
     border-radius: 16px;
@@ -210,16 +207,25 @@ body {
     border: 1px solid rgba(91, 74, 74, 0.22);
     /* color: #000; */
     color: white;
+    padding-top: 20px;
 }
 
 #information-card p {
-    font-size: 0.8rem;
+    font-size: 1.1rem;
 }
 
 @media screen and (max-width: 678px) {
     .text-on-slides {
-        top: 48%;
+        height: 30vh;
+        top: 40%;
         right: 2%;
+    }
+    #information-card p {
+        font-size: 0.9rem;
+    }   
+    #information-card{
+        height: 30vh;
+    
     }
 
 }
@@ -441,6 +447,17 @@ body {
     bottom: -9px;
     left: 12.5%;
 }
+.stats-border-bottom1:before {
+    position: absolute;
+    margin: auto;
+    z-index: 1;
+    content: "";
+    width: 75%;
+    height: 2px;
+    background: #4597a8;
+    bottom: -6px;
+    left: 12.5%;
+}
 
 .h-5 {
     margin-bottom: 15px;
@@ -467,12 +484,22 @@ body {
     text-align: center;
     margin-top: 20px;
 }
-
-.logo a img {
-    margin-bottom: 1rem;
-    /* display: flex;
+.h-7 {
+    margin-bottom: 10px;
+    color: white;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    /* margin-bottom: 30px; */
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+    /* margin-top: 20px; */
+}
+.logo{
+    display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
 }
 
 .overf {
@@ -529,7 +556,7 @@ body {
     border: 2px solid black;
     border-radius: 10px;
     background-color: #b9abab;
-    color: white;
+    background-color: rgb(95, 95, 254, 0.6);
 }
 
 

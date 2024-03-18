@@ -19,19 +19,18 @@
     <header>
       <nav class="navbar navbar-expand-lg nav-custom">
         <div class="container-fluid">
-          <div class="logo">
-            <a class="navbar-brand text-light" href="/home.html"
+          <div class="logo" style="display: flex; justify-content: center; align-items: center; margin: 10px 0;">
+            <a class="" href="/home.html" style="display: flex; align-items: center; justify-self: center;"
               ><img
                 id="custom-img"
                 src="/iitgn_logo.png"
                 alt="Logo"
                 width="55"
                 height="55"
-                class="d-inline-block align-text-top"
-            /></a>
-            <span class="stats-border-bottom h-6" style="font-size: 1rem"
-              >IIT Gandhinagar</span
-            >
+                class="d-inline-block align-text-center" 
+            ><a href="/home.html" style="display: flex; flex-direction: column; text-decoration: none; margin-left: 7px;"><span class="stats-border-bottom1 h-7" style="font-size: 1rem; padding-bottom: 0%;">IIT Gandhinagar</span>
+            <span class="anchor-tag" style="font-size: 1rem; color:white;"
+              >The Campus on Sabarmati</span></a></a>
           </div>
           <button
             class="navbar-toggler"
@@ -44,12 +43,9 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-
+  
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul
-              class="navbar-nav me-auto mb-2 mb-lg-0"
-              style="margin-left: 35%"
-            >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin-left: 35%">
               <li class="nav-item">
                 <a
                   class="nav-link hvr-underline-from-center font-color"
@@ -98,7 +94,7 @@
                   >Contact</a
                 >
               </li>
-
+  
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle font-color"
@@ -114,15 +110,13 @@
                     class="dropdown-item"
                     href="https://www.iitgn.ac.in/"
                     target="_blank"
-                    >IIT Gn</a
+                    >IITGN</a
                   >
                   <li>
                     <a class="dropdown-item" href="dropdown.html">Campus Map</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="dropdown.html"
-                      >Publications</a
-                    >
+                    <a class="dropdown-item" href="dropdown.html">Publications</a>
                   </li>
                   <li>
                     <a class="dropdown-item" href="dropdown.html">Awards</a>
@@ -144,7 +138,7 @@
             aria-label="Docs navigation"
           >
             <div class="d-flex">
-              <h5>Mess Facility</h5>
+              <!-- <h5>Waste Management</h5> -->
               <button
                 id="up-down-button"
                 class="navbar-toggler"
@@ -154,7 +148,7 @@
                 aria-controls="new-div"
                 aria-expanded="false"
                 aria-label="Toggle navigation"
-                style="border: none"
+                style="border: none !important"
               >
                 <svg
                   id="down"
@@ -194,11 +188,22 @@
               <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="side-menu-ul">
                 <li class="mb-1 nav-item">
                   <button class="btn d-inline-flex align-items-center">
-                    <a href="/waste.html" class="anchor-tag" aria-current="page"
-                      >Waste Management</a
+                    <a
+                      href="/shuttle_service.html"
+                      class="anchor-tag"
+                      aria-current="page"
+                      >IITGN Suttle Service</a
                     >
                   </button>
                 </li>
+                <li class="mb-1 nav-item">
+                  <button class="btn d-inline-flex align-items-center">
+                    <a href="/guest.html" class="anchor-tag" aria-current="page"
+                      >Guest House</a
+                    >
+                  </button>
+                </li>
+                
                 <li class="mb-1 nav-item">
                   <button class="btn d-inline-flex align-items-center">
                     <a
@@ -209,57 +214,21 @@
                     >
                   </button>
                 </li>
-                <li class="mb-1 nav-item">
+                <li class="mb-1 nav-item" style="border-radius: 10px; background-color: #fff">
                   <button class="btn d-inline-flex align-items-center">
                     <a
-                      href="/security.html"
+                      href="/dinning.html"
                       class="anchor-tag"
                       aria-current="page"
-                      >Campus Security 24x7</a
+                      >Hostle Dining facility</a
                     >
                   </button>
                 </li>
                 <li class="mb-1 nav-item">
                   <button class="btn d-inline-flex align-items-center">
-                    <a
-                      href="/shuttle_service.html"
-                      class="anchor-tag"
-                      aria-current="page"
-                      >IIT Gn Suttle Service</a
-                    >
-                  </button>
-                </li>
-                <li class="mb-1 nav-item">
-                  <button class="btn d-inline-flex align-items-center">
-                    <a
-                      href="/policy.html"
-                      class="anchor-tag"
-                      aria-current="page"
-                      >Dogs & Pet Policies</a
-                    >
-                  </button>
-                </li>
-                <li class="mb-1 nav-item">
-                  <button class="btn d-inline-flex align-items-center">
+                    
                     <a href="/shop.html" class="anchor-tag" aria-current="page"
                       >Campus Shops</a
-                    >
-                  </button>
-                </li>
-                <li class="mb-1 nav-item">
-                  <button class="btn d-inline-flex align-items-center">
-                    <a
-                      href="/laundary.html"
-                      class="anchor-tag"
-                      aria-current="page"
-                      >Laundry Facility</a
-                    >
-                  </button>
-                </li>
-                <li class="mb-1 nav-item">
-                  <button class="btn d-inline-flex align-items-center">
-                    <a href="/map.html" class="anchor-tag" aria-current="page"
-                      >Campus Maps</a
                     >
                   </button>
                 </li>
@@ -275,31 +244,11 @@
                 </li>
                 <li class="mb-1 nav-item">
                   <button class="btn d-inline-flex align-items-center">
-                    <a href="/care.html" class="anchor-tag" aria-current="page"
-                      >Day Care Facility</a
-                    >
-                  </button>
-                </li>
-                <!-- <li
-                  class="mb-1 nav-item"
-                  style="border-radius: 10px; background-color: #fff"
-                >
-                  <button
-                    class="btn d-inline-flex align-items-center"
-                    style="font-weight: 500"
-                  >
                     <a
-                      href="/dinning.html"
+                      href="/laundary.html"
                       class="anchor-tag"
                       aria-current="page"
-                      >Hostle Dining facility</a
-                    >
-                  </button>
-                </li> -->
-                <li class="mb-1 nav-item">
-                  <button class="btn d-inline-flex align-items-center">
-                    <a href="/guest.html" class="anchor-tag" aria-current="page"
-                      >Guest House</a
+                      >Laundry Facility</a
                     >
                   </button>
                 </li>
@@ -313,6 +262,59 @@
                     >
                   </button>
                 </li>
+                <li class="mb-1 nav-item">
+                  <button class="btn d-inline-flex align-items-center">
+                    <a
+                      href="/security.html"
+                      class="anchor-tag"
+                      aria-current="page"
+                      >Campus Security 24x7</a
+                    >
+                  </button>
+                </li>
+                
+                <li class="mb-1 nav-item">
+                  <button class="btn d-inline-flex align-items-center">
+                    <a href="/map.html" class="anchor-tag" aria-current="page"
+                      >Campus Maps</a
+                    >
+                  </button>
+                </li>
+                <li
+                  class="mb-1 nav-item"
+                  
+                >
+                  <button
+                    class="btn d-inline-flex align-items-center"
+                    style="font-weight: 500; outline: none"
+                  >
+                    <a href="/waste.html" class="anchor-tag" aria-current="page"
+                      >Waste Management</a
+                    >
+                  </button>
+                </li>
+                <li class="mb-1 nav-item">
+                  <button class="btn d-inline-flex align-items-center">
+                    <a
+                      href="/policy.html"
+                      class="anchor-tag"
+                      aria-current="page"
+                      >Dogs & Pet Policies</a
+                    >
+                  </button>
+                </li>
+                
+                
+                <li class="mb-1 nav-item">
+                  <button class="btn d-inline-flex align-items-center">
+                    <a href="/care.html" class="anchor-tag" aria-current="page"
+                      >Day Care Facility</a
+                    >
+                  </button>
+                </li>
+                
+                
+                
               </ul>
             </div>
           </nav>
