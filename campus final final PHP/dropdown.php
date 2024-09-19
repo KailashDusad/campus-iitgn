@@ -148,7 +148,7 @@
             </li>
             <li style="padding: 2px 0px">
               <a
-                href="/pdf/IIA_commendation_award.pdf"
+                href="pdf/IIA_commendation_award.pdf"
                 target="_blank"
                 class="anchor-tag"
                 >IIA Award</a
@@ -195,7 +195,7 @@
           <ul style="display: flex; flex-direction: column">
             <li>
               <a
-                href="/pdf/Reaching IITGN.pdf"
+                href="pdf/Reaching IITGN.pdf"
                 target="_blank"
                 class="anchor-tag"
                 >Reaching IITGN</a

@@ -625,7 +625,7 @@ body {
     padding-top: 50px;
     padding-bottom: 50px;
     overflow: hidden;
-    background: url(../images/focus-bg.jpg);
+    background: url(..images/focus-bg.jpg);
     background-size: cover;
 }
 
@@ -690,7 +690,7 @@ body {
 
 /*----OTHER FOCUSES ----*/
 .other-focuses {
-    background: url(../images/lines.png) repeat-x center;
+    background: url(..images/lines.png) repeat-x center;
     margin-bottom: 25px;
 }
 
